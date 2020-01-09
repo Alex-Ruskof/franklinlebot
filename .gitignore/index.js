@@ -297,4 +297,4 @@ client.on('ready' , () => {
    client.user.setActivity('+help: by Ruskof' , {type : "STREAMING"})
 });
 
-client.login('NjUyMjU1MjU4NzM0NzU1ODQx.XfPPPw.9S5-BcbDj_JSg8taSjrYcv5U1mI');  
+client.login('');  
