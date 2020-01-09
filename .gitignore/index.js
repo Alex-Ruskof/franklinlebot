@@ -297,4 +297,4 @@ client.on('ready' , () => {
    client.user.setActivity('+help: by Ruskof' , {type : "STREAMING"})
 });
 
-client.login(process.env.TOKEN);  
+bot.login(process.env.TOKEN);  
