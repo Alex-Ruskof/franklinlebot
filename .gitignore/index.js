@@ -218,7 +218,7 @@ const prefix = "+"
 
     if(msg.content === `+snap`) {
       msg.delete()
-      msg.reply(`Snapchat: https://www.snapchat.com/add/alexrcofficiel`);
+      msg.reply(`Snapchat: https://www.snapchat.com/add/alexruskofyt`);
     }
 
     if(msg.content === `+youtube`) {
@@ -248,7 +248,7 @@ const prefix = "+"
 
     if(msg.content === `+discord`) {
       msg.delete()
-      msg.reply(`Discord: @︻╦̵̵͇ Ruskof╤───#9958`);
+      msg.reply(`Discord: @Alex Ruskof#9958`);
     }
 });
 
