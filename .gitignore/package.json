@@ -1,6 +1,6 @@
 {
-  "name": "franklin",
-  "version": "0.0.1",
+  "name": "Neprix BOT",
+  "version": "0.0.2",
   "description": "Bot créé par Alex Ruskof",
   "main": "index.js",
   "dependencies": {
