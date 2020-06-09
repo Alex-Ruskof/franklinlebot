@@ -69,7 +69,7 @@ const prefix = "+"
       msg.reply(`Oui?`);  
     }
 
-    if (msg.content === `tg franklin`) {
+    if (msg.content === `tg le bot`) {
       msg.reply(`ok...🤐`);  
     }
 
@@ -250,6 +250,11 @@ const prefix = "+"
       msg.delete()
       msg.reply(`Discord: @Alex Ruskof#9958`);
     }
+
+    if(msg.content === `+fortnite`) {
+      msg.delete()
+      msg.reply(`https://media1.tenor.com/images/b84ac2fa1bdd53274d992b96a0bd5347/tenor.gif?itemid=12537704`);
+    }
 });
 
 client.on('message' , function (message) {
@@ -280,6 +285,19 @@ client.on('message' , function (message) {
                     message.channel.send(`${bb[0]} messages ont été supprimés !`)
        })
      }
+
+  if(message.content === prefix + "npx") {
+      let help_embed = new Discord.RichEmbed()
+      .setTitle("Liste Neprix:")
+      .addField("Fondateurs:", "`NPX Ruskof` `NPX JwD` ")
+      .addField("Admin Principal ", "`NPX Okili` ")
+      .addField("Joueurs Clavier-Souris ", "`NPX Drazox` `NPX Never` `NPX Paria` `NPX Zerkauz` ")
+      .addField("Joueurs Manette ", "`NPX Rediox` `NPX Chams` `NPX Kakuzu` ")
+      .addField("Date de la liste ", "`09/06/2020` ")
+      message.channel.send({
+          embed: help_embed
+      })
+    }
 });
 
 client.on('message' , function (message) {
