@@ -168,7 +168,7 @@ const prefix = "+"
 
     if(msg.content === `+fuck`) {
       msg.delete()
-      msg.reply(`https://media.tenor.com/images/6f6cf958f88ab1cff769ffa20f1d8a92/tenor.gif`);
+      msg.reply(`|| https://media.tenor.com/images/6f6cf958f88ab1cff769ffa20f1d8a92/tenor.gif ||`);
     }
 
     if(msg.content === `+mdr`) {
@@ -178,22 +178,22 @@ const prefix = "+"
 
     if(msg.content === `+love`) {
       msg.delete()
-      msg.reply(`https://media1.tenor.com/images/3264bcc47ee47ebbdd441f9f1d203542/tenor.gif?itemid=12498539`);
+      msg.reply(`|| https://media1.tenor.com/images/3264bcc47ee47ebbdd441f9f1d203542/tenor.gif?itemid=12498539 ||`);
     }
 
     if(msg.content === `+omg`) {
       msg.delete()
-      msg.reply(`https://media1.tenor.com/images/b7d855d18ae9ddcac3ef87e70fec42d5/tenor.gif?itemid=4795768`);
+      msg.reply(`|| https://media1.tenor.com/images/b7d855d18ae9ddcac3ef87e70fec42d5/tenor.gif?itemid=4795768 ||`);
     }
 
     if(msg.content === `+vodka`) {
       msg.delete()
-      msg.reply(`https://media1.tenor.com/images/9f9694177d581cec0ace3199de0d22e2/tenor.gif?itemid=4425374`);
+      msg.reply(`|| https://media1.tenor.com/images/9f9694177d581cec0ace3199de0d22e2/tenor.gif?itemid=4425374 ||`);
     }
 
     if(msg.content === `+blk`) {
       msg.delete()
-      msg.reply(`https://media1.tenor.com/images/cca812791a4c80b26fdcd5f8e368da45/tenor.gif?itemid=7213678`);
+      msg.reply(`|| https://media1.tenor.com/images/cca812791a4c80b26fdcd5f8e368da45/tenor.gif?itemid=7213678 ||`);
     }
 
     if(msg.content === `+bim-bam-boum`) {
@@ -208,7 +208,7 @@ const prefix = "+"
 
     if(msg.content === `+codecrea`) {
       msg.delete()
-      msg.reply(`Mon code créateur:   https://cdn.discordapp.com/attachments/636925787337130004/637243691412488203/1549554588-3734-card_1.png`);
+      msg.reply(`Mon code créateur:  || https://cdn.discordapp.com/attachments/636925787337130004/637243691412488203/1549554588-3734-card_1.png ||`);
     }
 
     if(msg.content === `+insta`) {
@@ -253,7 +253,7 @@ const prefix = "+"
 
     if(msg.content === `+fortnite`) {
       msg.delete()
-      msg.reply(`https://media1.tenor.com/images/b84ac2fa1bdd53274d992b96a0bd5347/tenor.gif?itemid=12537704`);
+      msg.reply(`|| https://media1.tenor.com/images/b84ac2fa1bdd53274d992b96a0bd5347/tenor.gif?itemid=12537704 ||`);
     }
 });
 
