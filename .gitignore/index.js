@@ -18,7 +18,7 @@ const prefix = "+"
     }
 
     if (msg.content === `on m'appelle l'ovni`) {
-      msg.reply(`on m'appelle Franklin!`);
+      msg.reply(`on m'appelle Neprix!`);
     }
 
     if (msg.content === 'bonjour') {
@@ -62,7 +62,7 @@ const prefix = "+"
     }
 
     if (msg.content === 'ça va?') {
-      msg.reply('Comme une tortue ;)');
+      msg.reply('Comme un robot ;)');
     }
 
     if (msg.content === `tortue`) {
@@ -264,12 +264,13 @@ client.on('message' , function (message) {
   };
   if(message.content === prefix + "help") {
       let help_embed = new Discord.RichEmbed()
-      .setTitle("Menu de Franklin:")
+      .setTitle("Menu du BOT Neprix :")
       .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮 𝓹𝓻𝓮𝓯𝓲𝔁:", "`+`")
-      .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮𝓼 𝓹𝓻𝓲𝓷𝓬𝓲𝓹𝓪𝓵𝓮𝓼 👨‍💻 ", "`ping` `say` `emoji` `emoji-list`")
-      .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮𝓼 𝓶𝓸𝓭𝓸𝓼 😎 ", "`clear` `avert`")
-      .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮𝓼 𝓭𝓻ô𝓵𝓮𝓼 🤣 ", "`omg` `vodka` `love` `fuck` `bim-bam-boum` `mdr` `tg`")
-      .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮𝓼 𝒓é𝒔𝒆𝒂𝒖𝒙 📲 ", "`youtube ou ytb` `twitch` `insta` `snap` `discord` `epic` `steam` `codecrea` ")
+      .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮𝓼 𝓹𝓻𝓲𝓷𝓬𝓲𝓹𝓪𝓵𝓮𝓼 👨‍💻 ", "`+ping` `+say` `+emoji` `+emoji-list`")
+      .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮𝓼 𝓶𝓸𝓭𝓸𝓼 😎 ", "`+clear` `+avert`")
+      .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮𝓼 𝓭𝓻ô𝓵𝓮𝓼 🤣 ", "`+omg` `+vodka` `+love` `+fuck` `+bim-bam-boum` `+mdr` `+tg`")
+      .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮𝓼 𝒓é𝒔𝒆𝒂𝒖𝒙 📲 ", "`+youtube ou +ytb` `+twitch` `+insta` `+snap` `+discord` `+epic` `+steam` `+codecrea` ")
+      .addField("Menu Neprix : ", "`+npx` ")
       message.channel.send({
           embed: help_embed
       })
