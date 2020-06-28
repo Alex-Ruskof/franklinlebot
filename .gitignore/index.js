@@ -289,9 +289,10 @@ client.on('message' , function (message) {
       .setTitle("Liste Neprix:")
       .addField("Fondateurs:", "`NPX Ruskof` `NPX JwD` ")
       .addField("Admin Principal ", "`NPX Okili` ")
-      .addField("Joueurs Clavier-Souris ", "`NPX Drazox` `NPX Never` `NPX Paria` `NPX Zerkauz` ")
-      .addField("Joueurs Manette ", "`NPX Rediox` `NPX Chams` `NPX Kakuzu` ")
-      .addField("Date de la liste ", "`09/06/2020` ")
+      .addField("Joueurs Clavier-Souris ", "`NPX Drazox` `NPX Never` `NPX Paria` `NPX Zerkauz` `NPX Tyvix` ")
+      .addField("Joueurs Manette ", "`NPX Chams` `NPX Kakuzu` ")
+      .addField("Joueurs en Semaine de Test ", `Samzoss` `Kyrua` ")
+      .addField("Date de la liste ", "`28/06/2020` ")
       message.channel.send({
           embed: help_embed
       })
