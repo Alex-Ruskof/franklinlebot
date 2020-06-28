@@ -28,14 +28,6 @@ const prefix = "+"
     if (msg.content === 'Salut') {
       msg.reply('Coucou!');  
     }
- 
-    if (msg.content === 'yo') {
-      msg.reply('Bonjour!');
-    }
- 
-    if (msg.content === 'wesh') {
-      msg.reply('Bonjour!');
-    }
 
     if (msg.content === 'c') {
       msg.reply(`T'aurais aimé que je dise D ? dommage...`);
@@ -43,6 +35,14 @@ const prefix = "+"
 
     if (msg.content === 'C') {
       msg.reply(`T'aurais aimé que je dise D ? dommage...`);
+    }
+
+    if (msg.content === 'E') {
+      msg.reply(`E,comme Elephant ?`);
+    }
+
+    if (msg.content === 'N') {
+      msg.reply(`N,comme Neprix ? (la meilleure des teams à mon gôut ;)`);
     }
 
     if (msg.content === 'mdr') {
@@ -63,10 +63,6 @@ const prefix = "+"
 
     if (msg.content === 'ça va?') {
       msg.reply('Comme un robot ;)');
-    }
-
-    if (msg.content === `tortue`) {
-      msg.reply(`Oui?`);  
     }
 
     if (msg.content === `tg le bot`) {
@@ -271,6 +267,7 @@ client.on('message' , function (message) {
       .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮𝓼 𝓭𝓻ô𝓵𝓮𝓼 🤣 ", "`+omg` `+vodka` `+love` `+fuck` `+bim-bam-boum` `+mdr` `+tg`")
       .addField("𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓮𝓼 𝒓é𝒔𝒆𝒂𝒖𝒙 📲 ", "`+youtube ou +ytb` `+twitch` `+insta` `+snap` `+discord` `+epic` `+steam` `+codecrea` ")
       .addField("Menu Neprix : ", "`+npx` ")
+      .addField("Menu Emoji : ", "`+help emoji` ")
       message.channel.send({
           embed: help_embed
       })
@@ -295,6 +292,17 @@ client.on('message' , function (message) {
       .addField("Joueurs Clavier-Souris ", "`NPX Drazox` `NPX Never` `NPX Paria` `NPX Zerkauz` ")
       .addField("Joueurs Manette ", "`NPX Rediox` `NPX Chams` `NPX Kakuzu` ")
       .addField("Date de la liste ", "`09/06/2020` ")
+      message.channel.send({
+          embed: help_embed
+      })
+    }
+
+ if(message.content === prefix + "help emoji") {
+      let help_embed = new Discord.RichEmbed()
+      .setTitle("Menu des emojis :")
+      .addField("Commande liste d'emoji ", "`+emoji-list`")
+      .addField("Commande site emoji 😎 ", "`+emoji`")
+      .addField("Commande emojis 🤣 ", "`+emoji vent` `+emoji wtf` `+emoji what` `+emoji mdrr` `+emoji boum` `+emoji mdr` `+emoji shut` `+emoji tortue` `+emoji lol` ` +emoji omg` `+emoji pleure` `+emoji xd` ")
       message.channel.send({
           embed: help_embed
       })
